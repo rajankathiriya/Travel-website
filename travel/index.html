@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expedia Tour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagestravel/logo.png" type="image/x-icon">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kranky&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kranky&family=Kumar+One&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-white fixed-top ">
+        <div class="container d-flex ">
+            <img src="imagestravel/logo.png" class="navbar-brand" alt="" width="150">
+            <button class="navbar-toggler bg-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars " aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-black" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tours
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Tours1.html">Tours 1</a></li>
+                            <li><a class="dropdown-item" href="Tour2.html">Tours 2</a></li>
+                            <li><a class="dropdown-item" href="Tour Detail.html">Tour Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="Destinations.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="blog1.html">Blog 1</a></li>
+                            <li><a class="dropdown-item" href="blog2.html">Blog 2</a></li>
+                            <li><a class="dropdown-item" href="blog2.html">Single post</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-black" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide carousel-fade bg-white" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagestravel/carousal-1.jpg" alt="Los Angeles" height="600px" class="d-block img-responsive " style="width:100%">
+                <div class="carousel-caption">
+                    <pre class="smal mb-2 text-white">L E T'S T R A V E L T H E W O R L D W I T H U S</pre><br>
+                    <h1 class="menutext text-white " id="headd">EXPLORE ROME WITH <span class="spannn text-primary" id="headd">TRAVOL </span> </h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagestravel/carousal-2.jpg" alt="Chicago" height="600px" class="d-block img-responsive " style="width:100%">
+                <div class="carousel-caption">
+                    <pre class="smal mb-2 text-white">L E T'S T R A V E L T H E W O R L D W I T H U S</pre><br>
+                    <h1 class="menutext text-white " id="headd">EXPLORE ROME WITH <span class="spannn text-primary" id="headd">TRAVOL </span> </h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagestravel/carousal-3.jpg" alt="New York" height="600px" class="d-block img-responsive " style="width:100%">
+                <div class="carousel-caption">
+                    <pre class="smal mb-2 text-white">L E T'S T R A V E L T H E W O R L D W I T H U S</pre><br>
+                    <h1 class="menutext text-white " id="headd">EXPLORE ROME WITH <span class="spannn text-primary" id="headd">TRAVOL </span> </h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+    <div class="bg-white">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <pre>T H E  B E S T  T R A V E L  A G E N C Y</pre>
+                    <b><h1 id="headd">DISCOVER THE <span class="text-primary" id="headd">WORLD</span><br> WITH OUR GUIDE</h1></b>
+                    <p>You can choose any country with good tourism. Agency elementum sesue the aucan vestibulum aliquam justo in sapien rutrum volutpat. Donec in quis the pellentesque velit. Donec id velit ac arcu posuere blane.</p>
+                    <p>Hotel ut nisl quam nestibulum ac quam nec odio elementum ceisue the miss varius natoque penatibus et magnis dis parturient monte.</p>
+                    <p><img src="imagestravel/righy-removebg-preview.png" width="35" alt=""> 20 Years of Experience
+                    </p>
+                    <p><img src="imagestravel/righy-removebg-preview.png" width="35" alt=""> 150+ Tour Destinations
+                    </p>
+
+                    <div class="phone-call mb-30">
+                        <div class="icon"><img src="imagestravel/call-removebg-preview.png" alt="" width="70" class="p-2"></div>
+                        <div class="text" style="line-height: 0.5;">
+                            <p>For information</p> <a href="tel:855-333-4444" style="text-decoration: none;">855 333 4444</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-4">
+                    <img src="imagestravel/about-img.jpeg" alt="" width="80%" class="aboutimg ">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--================ Accomodation Area  =================-->
+    <section class="accomodation_area section_gap py-3 pt-5" style="background-color: #f4f5f8;">
+        <div class="container pb-5">
+            <div class="row accomodation_two">
+                <pre class="text-primary">C H O O S E  Y O U R  P L A C E</pre>
+                <h1 id="headd">POPULAR<span class="text-primary" id="headd"> TOURS</span></h1>
+
+                <div class="col-md-8 mt-2" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="accomodation_item text-center">
+                        <div class="hotel_img">
+                            <img src="imagestravel/maldives1.jpg" alt="" width="100%">
+                            <div class="theme_btn">
+                                <h1 id="foooo">Maldiv tour</h1>
+                                <nav class="dropdown-divider bg-white"></nav>
+                                <i class="fa fa-clock-o" aria-hidden="true"> 10 Days</i>
+                                <i class="fa fa-user-o" aria-hidden="true"> 12+</i>
+                                <i class="fa fa-map-marker" aria-hidden="true"> Maldives</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-2" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="accomodation_item text-center">
+                        <div class="hotel_img">
+                            <img src="imagestravel/italy1.jpg" alt="" width="100%">
+                            <div class="theme_btn">
+                                <h1 id="foooo">Italy Tour</h1>
+                                <nav class="dropdown-divider bg-white"></nav>
+                                <i class="fa fa-clock-o" aria-hidden="true"> 6 Days</i>
+                                <i class="fa fa-user-o" aria-hidden="true"> 10+</i>
+                                <i class="fa fa-map-marker" aria-hidden="true"> Italy</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row accomodation_two my-3" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-md-4 mt-2">
+                    <div class="accomodation_item text-center">
+                        <div class="hotel_img">
+                            <img src="imagestravel/france11.jpg" alt="" width="100%">
+                            <div class="theme_btn">
+                                <h1 id="foooo">France Tour</h1>
+                                <nav class="dropdown-divider bg-white"></nav>
+                                <i class="fa fa-clock-o" aria-hidden="true"> 10 Days</i>
+                                <i class="fa fa-user-o" aria-hidden="true"> 6+</i>
+                                <i class="fa fa-map-marker" aria-hidden="true"> France</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-2" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="accomodation_item text-center">
+                        <div class="hotel_img">
+                            <img src="imagestravel/greece11.jpg" alt="" width="100%">
+                            <div class="theme_btn">
+                                <h1 id="foooo">Greece Tour</h1>
+                                <nav class="dropdown-divider bg-white"></nav>
+                                <i class="fa fa-clock-o" aria-hidden="true"> 10 Days</i>
+                                <i class="fa fa-user-o" aria-hidden="true"> 9+</i>
+                                <i class="fa fa-map-marker" aria-hidden="true"> Greece</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-2" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="accomodation_item text-center">
+                        <div class="hotel_img">
+                            <img src="imagestravel/canada1.jpg" alt="" width="100%">
+                            <div class="theme_btn">
+                                <h1 id="foooo">Canada Tour</h1>
+                                <nav class="dropdown-divider bg-white"></nav>
+                                <i class="fa fa-clock-o" aria-hidden="true"> 7 Days</i>
+                                <i class="fa fa-user-o" aria-hidden="true"> 12+</i>
+                                <i class="fa fa-map-marker" aria-hidden="true"> Canada</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="bg-black opacity-75" id="tourword">
+        <div class="container text-center ">
+            <div class="row text-white">
+                <div class="col-sm-3 py-5" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fa fa-plane p-3" aria-hidden="true" style="font-size: 50px; border: 1px solid rgb(255, 245, 245); border-radius: 100px;"></i><br><br>
+                    <b>
+                        <h5 class="count">600</h5>
+                    </b>
+                    <b>
+                        <p>Flight Booking</p>
+                    </b>
+                </div>
+                <div class="col-sm-3 py-5" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fa fa-home p-3" aria-hidden="true" style="font-size: 50px; border: 1px solid rgb(255, 245, 245); border-radius: 100px;"></i><br><br>
+                    <b>
+                        <h5>250</h5>
+                    </b>
+                    <b>
+                        <p>Amazing Tour</p>
+                    </b>
+                </div>
+                <div class="col-sm-3 py-5" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fa fa-ship p-3" aria-hidden="true" style="font-size: 50px; border: 1px solid rgb(255, 245, 245); border-radius: 100px;"></i><br><br>
+                    <b>
+                        <h5>100</h5>
+                    </b>
+                    <b>
+                        <p>Cruises Booking</p>
+                    </b>
+                </div>
+                <div class="col-sm-3 py-5" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fa fa-ticket p-3" aria-hidden="true" style="font-size: 50px; border: 1px solid rgb(255, 245, 245); border-radius: 100px;"></i><br><br>
+                    <b>
+                        <h5>100</h5>
+                    </b>
+                    <b>
+                        <p>Ticket Booking</p>
+                    </b>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================= -->
+
+    <!-- Swiper -->
+    <div class="bg-white container-fluid">
+        <div class="container py-5 px-5">
+            <pre>T O P  D E S T I N A T I O N</pre>
+            <b>
+                <h1 id="headd">POPULAR <span class="text-primary"id="headd">DESTINATION</span></h1>
+            </b>
+            <div class="row">
+                <div class="accomodation_item p-3 col-sm-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="hotel_img">
+                        <img src="imagestravel/car2.1.jpg" alt="" width="100%" class="">
+                        <div class="themes2_btn">
+                            <h1 id="foooo"><i class="fa fa-map-marker" aria-hidden="true"> Maldives</i></h1>
+                            <nav class="dropdown-divider bg-white"></nav>
+                            <p class="text-start">4 Tour Packages</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accomodation_item p-3 col-sm-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="hotel_img">
+                        <img src="imagestravel/car2.2.jpg" alt="" width="100%" class="">
+                        <div class="themes2_btn">
+                            <h1 id="foooo"><i class="fa fa-map-marker" aria-hidden="true"> Canada</i></h1>
+                            <nav class="dropdown-divider bg-white"></nav>
+                            <p class="text-start">3 Tour Packages</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accomodation_item p-3 col-sm-4" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="hotel_img">
+                        <img src="imagestravel/car2.3.jpg" alt="" width="100%" class="">
+                        <div class="themes2_btn">
+                            <h1 id="foooo"><i class="fa fa-map-marker" aria-hidden="true"> Italy</i></h1>
+                            <nav class="dropdown-divider bg-white"></nav>
+                            <p class="text-start">7 Tour Packages</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============================================================================================================== -->
+
+
+    <header class="m-0 bg-black ">
+        <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+        <div class="overlay opacity-25"></div>
+
+        <!-- The HTML5 video element that will create the background video on the header -->
+        <video width="100%" height="100%" class="bg-black " autoplay loop preload="">
+            <source src="imagestravel/maldiv video.mp4" type="video/mp4">  
+        </video>
+
+        <!-- The header content -->
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="menutext"><span class="spannnn">Costa Victoria Cochin</span> </h1>
+                    <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                    <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                    <i class="fa fa-map-marker" aria-hidden="true"> Greece  </i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+    <div class="container-fluid bg-white p-5 m-0">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <b><h1 id="headd">ITALY, EUROPE</h1></b>
+                    <p>We provide you with interesting and exciting tours to different parts of the world. Orci varius natoque penatibus et magnis disney turien nascete ridiculus duru in the mus nellen.</p>
+                    <div class="row">
+                        <div class="col-sm">
+                            <!-- <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Roma</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Venice</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> San Marino</i></a> -->
+                            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Roma</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Venice</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">San Marino</a>
+                        </div>
+                        <div class="col-sm">
+                            <!-- <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Milan</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Florence</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Parma</i></a> -->
+                            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Milan</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Florence</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Parma</a>
+                        </div>
+                        <div class="col-sm">
+                            <!-- <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Verona</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Perugia</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Aosta</i></a> -->
+                            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Verona</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Perugia</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Aosta</a>
+                        </div>
+                    </div><br>
+                    <!-- <a href="#"><button class="btn btn-primary py-2 px-3">All Tours</button></a><br><br> -->
+                    <button data-text="Awesome" class="button mb-3">
+                        <span class="actual-text">&nbsp;More&nbsp;</span>
+                        <span class="hover-text" aria-hidden="true">&nbsp;More&nbsp;</span>
+                    </button>
+                </div><br><br>
+                <div class="col-sm-3 accomodation_item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div class="hotel_img">
+                        <img src="imagestravel/rome1.jpg" alt="" width="100%">
+                        <div class="themes_btn">
+                            <h1 id="foooo">Rome</h1>
+                            <nav class="dropdown-divider bg-white"></nav>
+                            <i class="fa fa-clock-o" aria-hidden="true"> 3 Days</i>
+                            <i class="fa fa-user-o" aria-hidden="true"> 10+</i>
+                            <i class="fa fa-map-marker" aria-hidden="true"> Italy</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 accomodation_item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div class="hotel_img">
+                        <img src="imagestravel/venice1.jpg" alt="" width="100%">
+                        <div class="themes_btn">
+                            <h1 id="foooo">Venice</h1>
+                            <nav class="dropdown-divider bg-white"></nav>
+                            <i class="fa fa-clock-o" aria-hidden="true"> 4 Days</i>
+                            <i class="fa fa-user-o" aria-hidden="true"> 8+</i>
+                            <i class="fa fa-map-marker" aria-hidden="true"> Italy</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <nav class="dropdown-divider" style="background-color: rgba(0, 0, 0, 0.081);"></nav>
+    </div>
+
+
+    <div class="container-fluid bg-white p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 accomodation_item" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div class="hotel_img">
+                        <img src="imagestravel/france-paris1.jpg" alt="" width="100%">
+                        <div class="themes_btn">
+                            <h1 id="foooo">Paris</h1>
+                            <nav class="dropdown-divider bg-white"></nav>
+                            <i class="fa fa-clock-o" aria-hidden="true"> 7 Days</i>
+                            <i class="fa fa-user-o" aria-hidden="true"> 9+</i>
+                            <i class="fa fa-map-marker" aria-hidden="true"> France</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 accomodation_item" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="hotel_img">
+                        <img src="imagestravel/france-lyon1.jpg" alt="" width="100%">
+                        <div class="themes_btn">
+                            <h1 id="foooo">Lyon</h1>
+                            <nav class="dropdown-divider bg-white"></nav>
+                            <i class="fa fa-clock-o" aria-hidden="true"> 4 Days</i>
+                            <i class="fa fa-user-o" aria-hidden="true"> 6+</i>
+                            <i class="fa fa-map-marker" aria-hidden="true"> France</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6" data-aos="fade-up" data-aos-duration="1000">
+                    <b><h1 id="headd">ITALY, EUROPE</h1>
+                    </b>
+                    <p>We provide you with interesting and exciting tours to different parts of the world. Orci varius natoque penatibus et magnis disney turien nascete ridiculus duru in the mus nellen.</p>
+                    <div class="row">
+                        <div class="col-sm">
+                            <!-- <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Paris</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Lyon</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Marseille</i></a> -->
+                            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Paris</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Lyon</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Marseille</a>
+                        </div>
+                        <div class="col-sm">
+                            <!-- <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Orleans</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Bordeaux</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Cannes</i></a> -->
+                            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Orleans</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Bordeaux</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Cannes</a>
+                        </div>
+                        <div class="col-sm">
+                            <!-- <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Nantes</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Toulouse</i></a><br>
+                            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"> Nice</i></a> -->
+                            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Nantes</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Toulouse</a><br>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:35px;height:35px"></lord-icon><a href="#" style="text-decoration: none;">Nice</a>
+                        </div>
+                    </div><br>
+                    <!-- <a href="#"><button class="btn btn-primary py-2 px-3">All Tours</button></a> -->
+                    <button data-text="Awesome" class="button mb-3">
+                        <span class="actual-text">&nbsp;More&nbsp;</span>
+                        <span class="hover-text" aria-hidden="true">&nbsp;More&nbsp;</span>
+                    </button>
+                </div>
+            </div>
+        </div><br>
+
+        <nav class="dropdown-divider bg-black"></nav>
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+    <div class="container-fluid  bg-white">
+        <div class="row py-3">
+            <h1 class="text-center" id="headd">Book Your Tickets</h1>
+            <div class="col-md-2"></div>
+            <div class="col-md-4  bg-light  p-3">
+
+                <form action="#">
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="First" class="form-control" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div><br>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" class="form-control" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                        <div>We will Send you a copy of the completed booking form to your E-mail address.</div>
+                    </div><br>
+                    <!-- <div class="form-group">
+                        <label for="Name">Departure date</label>
+                        <input type="date" name="name" id="name" class="form-control" required>
+                    </div><br>
+                    <div class="form-group">
+                        <label for="Name">Return date</label>
+                        <input type="date" name="name" id="name" class="form-control" required>
+                    </div><br> -->
+                    <div class="form-group">
+                        <label for="Name">Number of guests/passangers</label>
+
+                        <select class="form-select">
+                            <option selected>Please select</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div><br>
+
+                </form>
+            </div>
+            <div class="col-md-4  bg-light  p-3  ">
+                <form action="#"><br>
+                    <div class="form-group">
+                        <input type="text" name="lname" id="lname" placeholder="First" class="form-control" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div><br>
+                    <div class="form-group">
+                        <label for="phone">phone</label>
+                        <input type="text" name="phone" id="phone" class="form-control" placeholder="### ### ####" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div><br><br>
+                    <!-- <div class="form-group">
+                        <label for="time">Departure time</label>
+                        <input type="time" name="time" id="time" class="form-control" required>
+                    </div><br>
+                    <div class="form-group">
+                        <label for="time">Return time</label>
+                        <input type="time" name="time" id="time" class="form-control" required>
+                    </div><br> -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="">Type of room/ticket</label><br>
+                                <div class="form-check">
+                                    <input type="radio" name="room" id="room" class="form-check-input">
+                                    <label for="room"> Economy</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" name="room" id="room1" class="form-check-input">
+                                    <label for="room1"> Business</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col"><br>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input type="radio" name="room" id="room2" class="form-check-input">
+                                    <label for="room2"> Premium</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" name="room" id="room3" class="form-check-input">
+                                    <label for="room3"> Deluxe</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+                </form>
+
+            </div>
+
+            <div class="col-md-2"></div>
+
+
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div>
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-outline-primary btn-block">Conform Reservation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+
+    <div class="container-fluid" style="background-color: #0f2454;">
+        <div class="container text-white p-5">
+            <div class="row">
+                <pre>T R A V E L  B L O G</pre>
+                <h1 id="headd"><span class="text-primary" id="headd">TRAVEL</span> EXPERIENCE</h1>
+                <div class="col-sm-4  accomodation_item p-3 " data-aos="fade-up" data-aos-duration="1000">
+                    <div class="hotel_img ">
+                        <img src="imagestravel/1.jpg" alt="" width="100%">
+                    </div>
+                    <div class="bg-white text-black p-2 animetion ">
+                        <p>TOURS</p>
+                        <h4>Tips Towards a Flawless Honeymoon</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4  accomodation_item p-3 " data-aos="fade-up" data-aos-duration="1000">
+                    <div class="hotel_img">
+                        <img src="imagestravel/2.jpg" alt="" width="100%">
+                    </div>
+                    <div class="bg-white text-black p-2 animetion ">
+                        <p>TOURS</p>
+                        <h4>Tips Towards a Flawless Honeymoon</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4  accomodation_item p-3 " data-aos="fade-up" data-aos-duration="1000">
+                    <div class="hotel_img">
+                        <img src="imagestravel/3.jpg" alt="" width="100%">
+                    </div>
+                    <div class="bg-white text-black p-2 animetion ">
+                        <p>TOURS</p>
+                        <h4>Tips Towards a Flawless Honeymoon</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- ======================================(TESTIMONIAL)========================================================================== -->
+    <div class="container-fluid " style="background-color:rgba(28, 72, 129, 0.538) ;">
+        <div class="container py-5">
+            <pre class="smal mb-2 text-white">T E S T I M O N I A L S</pre>
+            <h1 class="menutext text-white " id="headd">TRAVELERS <span class="spannn text-primary" id="headd"> REVIEWS </span> </h1>
+            <div class="row">
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <div class="card-img pt-2 pb-3"> <img src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> </div>
+                            <div class="name h5">Lisa Stephen</div>
+                            <div class="testimonial"> Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <div class="card-img pt-2 pb-3"> <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> </div>
+                            <div class="name h5">Hermione Granger</div>
+                            <div class="testimonial"> Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <div class="card-img pt-2 pb-3"> <img src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" /> </div>
+                            <div class="name h5">Millie Bobby</div>
+                            <div class="testimonial"> Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+    <div class="container-fluid">
+        <div id="demos" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-captions">
+                        <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code, I don't know what will.This was the very best explanation of frameworks for brginners that I've ever seen.
+                        </p>
+                        <img src="imagestravel/1.jpg">
+                        <div id="image-captions">Nick Doe</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-captions">
+                        <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code, I don't know what will.This was the very best explanation of frameworks for brginners that I've ever seen.</p>
+                        <img src="imagestravel/1.jpg" class="img-fluid">
+                        <div id="image-captions">Cromption Greves</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-captions">
+                        <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code, I don't know what will.This was the very best explanation of frameworks for brginners that I've ever seen.</p>
+                        <img src="imagestravel/1.jpg" class="img-fluid">
+                        <div id="image-captions">Harry Mon</div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-preve" href="#demos" data-slide="prev">
+                <i class='fas fa-arrow-left' id="hey"></i>
+            </a>
+            <a class="carousel-control-nexte" href="#demos" data-slide="next">
+                <i class='fas fa-arrow-right' id="hey"></i>
+            </a>
+        </div>
+
+    </div> -->
+    <!-- ========================================================================================================= -->
+    <div class="container-fluid bg-dark text-white opacity-75">
+        <div class="container ">
+            <div class="row">
+                <div class="col-sm-12 p-5 text-center">
+                    <h1 id="foooo">Travel more to discover yourself. Travel more, <br>create more memories. Travel the world. <br>Travel to live, Live to travel.</h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+    <div class="container-fluid bg-white py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="imagestravel/11.png" alt="" width="100%">
+                </div>
+                <div class="col-sm-3">
+                    <img src="imagestravel/12.png" alt="" width="100%">
+                </div>
+                <div class="col-sm-3">
+                    <img src="imagestravel/13.png" alt="" width="100%">
+                </div>
+                <div class="col-sm-3">
+                    <img src="imagestravel/14.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
+    <div class="container-fluid py-5 text-white" style="background-color: #0f2454; ">
+        <div class="container">
+            <div class="row" style="border: 1px solid rgba(183, 172, 172, 0.325);">
+                <div class="col-sm-4">
+                    <div class="phone-call py-3" style="line-height: 0.5;">
+                        <div class="icon  mx-2">
+                            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/tknpvmuo.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:100px;height:100px">
+                            </lord-icon>
+                        </div>
+                        <div class="text">
+                            <p><b>Call Now</b></p>855 333 4444
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="phone-call py-3" style="line-height: 0.5;">
+                        <div class="icon  mx-2">
+                            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/sdhhsgeg.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:100px;height:100px">
+                            </lord-icon>
+                        </div>
+                        <div class="text">
+                            <p><b>Write to us</b></p>info@travolagency.com
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="phone-call py-3" style="line-height: 0.5;">
+                        <div class="icon  mx-2">
+                            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/elzslyvl.json" trigger="hover" colors="primary:#4be1ec,secondary:#cb5eee" style="width:100px;height:100px">
+                            </lord-icon>
+                        </div>
+                        <div class="text">
+                            <p><b>Address</b></p> 24 King St, SC 29401 USA
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-sm-4">
+                    <div>
+                        <img src="imagestravel/logo-white.png" alt="" width="200">
+                    </div><br>
+                    <p>Quisque imperdiet sapien porttito the bibendum sellentesque the commodo erat acar accumsa lobortis, enim diam the nesuen.</p><br>
+
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram border p-2 text-white" id="hhhhh" style="border-radius: 100px; font-size: 20px; background-color: #2095ae;" aria-hidden="true"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa fa-twitter border p-2 text-white" id="hhhhh" style="border-radius: 100px; font-size: 20px; background-color: #2095ae;" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook border p-2 text-white" id="hhhhh" style="border-radius: 100px; font-size: 20px; background-color: #2095ae;" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa fa-youtube border p-2 text-white" id="hhhhh" style="border-radius: 100px; font-size: 20px; background-color: #2095ae;" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-sm-4 px-5">
+                    <h4><b>Quick Links</b></h4>
+                    <ul>
+                        <a href="#" style="text-decoration: none;">
+                            <li class="text-white">About</li>
+                        </a>
+                        <a href="#" style="text-decoration: none;">
+                            <li class="text-white">Tours</li>
+                        </a>
+                        <a href="#" style="text-decoration: none;">
+                            <li class="text-white">Destinations</li>
+                        </a>
+                        <a href="#" style="text-decoration: none;">
+                            <li class="text-white">Blog</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h4><b>Subscribe</b></h4>
+                    <p>Sign up for our monthly blogletter to stay informed about travel and tours</p>
+                    <input type="email" class="w-75 p-2 rounded-0"><button type="button" value="Send" class="p-2 px-3 bg-primary text-white">Send</button>
+                </div>
+            </div>
+            <nav class="dropdown-divider bg-white"></nav>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+        });
+        $(function() {
+            $('.owl-carousel.testimonial-carousel').owlCarousel({
+                nav: true,
+                navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    750: {
+                        items: 2,
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
